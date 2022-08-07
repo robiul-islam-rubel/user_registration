@@ -1,0 +1,56 @@
+.container {
+    /* width: 500px; */
+    /* margin-top: 50px; */
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 6px;
+    font-weight: bold;
+    background-color: #7B11F8;
+    color: white;
+    border-radius: 5px;
+}
+
+.button2 {
+    padding: 6px;
+    font-weight: bold;
+    background-color: #BB2D3B;
+    color: white;
+    border-radius: 5px;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    /* width: 90%; */
+    margin: auto;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
